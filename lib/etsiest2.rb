@@ -16,4 +16,4 @@ module Etsiest2
 		  	erb :index, locals: { results: response.result }
       	end
       	run! if app_file == $0
-end		#the above line is magic
+end	end	#the above line is magic
