@@ -36,8 +36,28 @@
       <li class="list_links"><a href="https://www.etsy.com/search/electronics-and-accessories?q=death">Electronics & Accessories</a></li>
       <li class="list_links"><a href="https://www.etsy.com/search/toys-and-games?q=death">Toys & Games</a></li>
       <li class="list_links"><a href="https://www.etsy.com/search/pet-supplies?q=death">Pet Supplies</a></li>
-
     </ul>
   </div>
+
+        <div class="listings">
+        <% results.each do |result| %>
+          <div class="item">
+            <div class="pic">
+              <img class="pic_img" src="<%= result[" Images "][0]["url_170x135 "]%>">
+            </div>
+            <div class="item_footer">
+              <div class="item_desc">
+                <%= result["title"] %>
+              </div>
+              <div class="price">
+                <%= result["price"] %>
+              </div>
+              <div class="shops">
+                <%= result["Shop"]["shop_name"] %>
+              </div>
+            </div>
+          </div>
+          <% end %>
+      </div>
   </body>
 </html>
