@@ -1,1 +1,8 @@
-#nothing here yet.
+ul#navigation li {
+  display: inline;
+  float: center;
+
+} 
+ul#navigation li a {
+color: #c0c0c0
+}
