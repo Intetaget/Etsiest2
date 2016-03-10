@@ -13,7 +13,7 @@ module Etsiest2
 
  		get "/" do
       		results = Etsy::Request.get('/listings/active', :includes => ['Images', 'Shop'], :keywords => 'death')
-		  	erb :index, locals: { results: results }
+		  	erb :index, locals: { results: results.result }
       	end
       	run! if app_file == $0
 end	end	#the above line is magic
