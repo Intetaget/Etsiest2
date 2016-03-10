@@ -12,8 +12,8 @@ module Etsiest2
   	class App < Sinatra::Base
 
  		get "/" do
-      		response=Etsy::Request.get('/listings/active', :includes => ['Images', 'Shop'], :keywords => 'death')
-		  	erb :index, locals: { results: response.result }
+      		results = Etsy::Request.get('/listings/active', :includes => ['Images', 'Shop'], :keywords => 'death')
+		  	erb :index, locals: { results: results }
       	end
       	run! if app_file == $0
 end	end	#the above line is magic
