@@ -1,8 +1,22 @@
-ul#navigation li {
+ul#topmenue li {
   display: inline;
   float: center;
 
 } 
-ul#navigation li a {
+ul#topmenue li a {
 color: #c0c0c0
+}
+
+
+div.sidemenu {
+  width: 15%;
+  height: 50%;
+  border-size: 0.5px;
+  border-style: solid;
+  border-color: #gray ;
+  float: left;
+}
+
+ul#sidemenue li a {
+font-color: #blue;
 }
