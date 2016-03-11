@@ -27,19 +27,22 @@ ul#topmenue li {
 
 } 
 
-div.item_footer {
-  width: 60%;
+
+ 
+div.item_desc{
+  width: 80%;
+  white-space: nowrap;
   overflow:hidden;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis; 
 }
 
-div.listinfo .shop {
+div.shops {
   color: #AAA;
   float: left;
 }
 
-div.listinfo .price {
-  color: #78c042;
+div.price {
+  color: #838B8B;
   display: inline;
   float: right;
 }
