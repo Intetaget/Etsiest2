@@ -1,3 +1,12 @@
+div.etsylogo img {
+  max-width: 80px;
+  height: auto;
+  float: left;
+  vertical-align: center;
+}
+
+
+
 ul#topmenue li {
   display: inline;
   float: center;
