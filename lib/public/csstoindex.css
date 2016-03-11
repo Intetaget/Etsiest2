@@ -4,7 +4,8 @@ body {
 }
 
 div.item{
- width: 100%;
+ width: 30%;
+ position: absolute;
   display: inline-block;
   float right
 }
@@ -25,18 +26,25 @@ ul#topmenue li a {
 color: #c0c0c0
 }
 
+div.justbecause{
+  width: 33%;
+  float: right;
+  display: inline-block;
+}
+
 
 
 div.sidemenu {
  .side_bar {
+ 	position:absolute;
 	display: inline-block;
-	width: 120px;
+	width: 100px;
 	height: 100%;
 	float: left;
 	margin-top: 35px;
-	margin-left: 180px;
-	border-width: 1px;
-	background-color: rgb(255, 255, 255)
+	margin-left: 35px;
+	border-size: 5px;
+	background-color: rgb(255)
 }
 
 ul#sidemenue li a {
