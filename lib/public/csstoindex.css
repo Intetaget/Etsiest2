@@ -1,11 +1,20 @@
-div.etsylogo img {
+body {
+	background-color: rgb(235);
+	height: 100%;
+}
+
+div.item{
+ width: 100%;
+  display: inline-block;
+  float right
+}
+
+div.logo img {
   max-width: 80px;
   height: auto;
   float: left;
   vertical-align: center;
 }
-
-
 
 ul#topmenue li {
   display: inline;
@@ -17,13 +26,17 @@ color: #c0c0c0
 }
 
 
+
 div.sidemenu {
-  width: 15%;
-  height: 50%;
-  border-size: 0.5px;
-  border-style: solid;
-  border-color: #gray ;
-  float: left;
+ .side_bar {
+	display: inline-block;
+	width: 120px;
+	height: 100%;
+	float: left;
+	margin-top: 35px;
+	margin-left: 180px;
+	border-width: 1px;
+	background-color: rgb(255, 255, 255)
 }
 
 ul#sidemenue li a {
